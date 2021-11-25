@@ -1,0 +1,14 @@
+html,
+body {
+  overflow: hidden;
+}
+
+.cartoon {
+  width: 80vmin;
+  height: 80vmin;
+  background: #fee;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
