@@ -24,9 +24,27 @@ body {
   width: 40%;
   height: 40%;
   background: var(--brown1);
+  color: var(--brown1);
   border-radius: 50%;
   top: 40%;
   left: 50%;
   transform: translate(-50%, 0);
   box-shadow: -5vmin 14.5vmin 0 -13vmin, 5vmin 14.5vmin 0 -13vmin;
+}
+
+.wing {
+  height: 30%;
+  width: 20%;
+  background: var(--brown2);
+  border-radius: 100% 10% 100% 5%;
+  top: 41%;
+  left: 23%;
+  transform-origin: top right;
+  transform: rotate(-5deg);
+}
+
+.wing + .wing {
+  left: auto;
+  right: 43%;
+  transform: scaleX(-1) rotate(-10deg);
 }
