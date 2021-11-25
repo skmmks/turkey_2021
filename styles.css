@@ -4,6 +4,8 @@ body {
 }
 
 .cartoon {
+  --brown1: #753;
+  --brown2: #975;
   width: 80vmin;
   height: 80vmin;
   background: #fee;
@@ -11,4 +13,20 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.cartoon div {
+  position: absolute;
+  box-sizing: border-box;
+}
+
+.body {
+  width: 40%;
+  height: 40%;
+  background: var(--brown1);
+  border-radius: 50%;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  box-shadow: -5vmin 14.5vmin 0 -13vmin, 5vmin 14.5vmin 0 -13vmin;
 }
