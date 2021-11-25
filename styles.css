@@ -104,3 +104,36 @@ body {
   left: 50%;
   transform: translate(-100%, 0);
 }
+
+.leg {
+  width: 3%;
+  height: 21%;
+  background: var(--orange1);
+  top: 79%;
+  left: 50%;
+  transform: translate(-50%, 0) translate(-4vmin, 0);
+  border-radius: 5vmin / 50%;
+  background-image: repeating-linear-gradient(transparent 0 10%, rgba(0, 0, 0, 0.1) 0 11%);
+}
+
+.leg + .leg {
+  transform: translate(-50%, 0) translate(4vmin, 0);
+}
+
+.leg::before,
+.leg::after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 80%;
+  height: 35%;
+  left: 50%;
+  bottom: 0;
+  background: var(--orange1);
+  border-radius: 5vmin;
+  transform-origin: 50% 0;
+  transform: translate(-50%, 0) rotate(30deg);
+}
+.leg::after {
+  transform: translate(-50%, 0) rotate(-30deg);
+}
