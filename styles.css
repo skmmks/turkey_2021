@@ -137,3 +137,14 @@ body {
 .leg::after {
   transform: translate(-50%, 0) rotate(-30deg);
 }
+
+.hat-top {
+  width: 16%;
+  height: 20%;
+  background: black;
+  box-shadow: inset 0 -7vmin #fff3;
+  border-radius: 100% / 230% 230% 0% 0%;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
