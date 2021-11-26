@@ -148,3 +148,26 @@ body {
   left: 50%;
   transform: translate(-50%, 0);
 }
+
+.hat-top::before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 40%;
+  height: 2vmin;
+  border: 1vmin solid #772;
+  border-radius: 1vmin;
+  bottom: 3.25vmin;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.hat-bottom {
+  width: 35%;
+  height: 8%;
+  border-radius: 50%;
+  background: black;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
